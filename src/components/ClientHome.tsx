@@ -1,6 +1,7 @@
 "use client"
 
 import { TodoList } from '@/app/_components/todo'
+import { HydrateClient } from '@/trpc/server'
 import React from 'react'
 import { AuthButton } from './AuthButton'
 import { useSession } from 'next-auth/react'
