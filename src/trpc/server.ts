@@ -29,7 +29,3 @@ export const { trpc: api, HydrateClient } = createHydrationHelpers<AppRouter>(
   getQueryClient,
 );
 
-export const getServerApiCaller = async () => {
-  const ctx = await createContext();
-  return createCaller(ctx);
-};
